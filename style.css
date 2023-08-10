@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(35, 40, 48);
+}   
+nav{
+    background-color: rgba(77, 99, 107, 0.507);
+    margin: none;
+    padding: 32px;
+}
+nav h1{
+    text-align: left;
+    color: white;
+    font-size: 34px;
+}
