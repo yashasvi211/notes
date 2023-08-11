@@ -6,12 +6,74 @@ body{
     background-color: rgb(35, 40, 48);
 }   
 nav{
-    background-color: rgba(77, 99, 107, 0.507);
+    background-color: rgba(129, 134, 146, 0.195);
     margin: none;
-    padding: 32px;
+   padding: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
 }
 nav h1{
+    margin-left: none ;
     text-align: left;
     color: white;
+    font-size: 39px;
+}
+nav ul{
+    display: flex;
+    justify-content: right ;
+    
+}
+nav ul li{
+    padding: 33px;
+    list-style: none;
+   color:azure;
+   font-size:19px;
+   font-family:system-ui;    
+}
+#image {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   height: 272px;
+  
+   
+}
+#image img{
+    max-width: 12%;
+   
+}
+#para {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   height: 2px;
+}
+#para h1{
+    color:rgb(255, 117, 117);
+    font-family: monospace;
     font-size: 34px;
 }
+#menu ul{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    list-style-type: none;
+    padding: 25px;
+ 
+ }
+ /* Add this to your existing CSS */
+hr {
+    margin-top: 30px; /* Adjust this value as needed */
+    
+}
+
+ #menu ul li{
+    padding: 33px;
+    list-style: none;
+   color:azure;
+   font-size:19px;
+   font-family:system-ui;    
+ 
+ }
