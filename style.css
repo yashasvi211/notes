@@ -36,12 +36,12 @@ nav ul li{
     display:flex;
     justify-content: center;
     align-items: center;
-   height: 272px;
+   height: 192px;
   
    
 }
 #image img{
-    max-width: 12%;
+    max-width: 100px;
    
 }
 #para {
@@ -54,26 +54,46 @@ nav ul li{
     color:rgb(255, 117, 117);
     font-family: monospace;
     font-size: 34px;
+ margin-top:4px;
+ opacity:80%;
 }
 #menu ul{
     display:flex;
     justify-content:center;
     align-items: center;
     list-style-type: none;
-    padding: 25px;
+    padding: 5px;
  
  }
- /* Add this to your existing CSS */
+ 
 hr {
-    margin-top: 30px; /* Adjust this value as needed */
+    margin-top: 30px;  
+    opacity: 10%;
     
 }
 
  #menu ul li{
-    padding: 33px;
+    margin: 20px 10px;
+    padding: 0px 25px;
     list-style: none;
-   color:azure;
-   font-size:19px;
-   font-family:system-ui;    
+    color:gray;
+    font-size:19px;
+    font-family:monospace;    
+    font-style:italic;
+    border:1px solid ; 
  
+ }
+ #menu ul li:hover{
+    margin: 20px 10px;
+    padding: 0px 25px;
+    list-style: none;
+    color: rgb(255, 117, 117);
+    font-size:19.3px;
+    font-family:monospace;    
+    font-style:italic;
+    border:1px solid ; 
+ 
+ }
+ hr#end{
+    height: 120px;
  }
